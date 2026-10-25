@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>In Character: a host guide for tabletop game nights on Discord with a live face swap</title>
+<meta name="description" content="How a game master or player can appear on Discord camera as their own character portrait during a tabletop session, using a browser live face swap and OBS Virtual Camera.">
+<style>
+  body { margin:0; background:#1f1b24; color:#ece6f2; font:17px/1.7 "Iowan Old Style", Palatino, Georgia, serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:44px 22px 70px; }
+  h1 { font-size:2.1rem; line-height:1.2; margin:0 0 10px; color:#f5c26b; }
+  h2 { color:#f5c26b; margin-top:2.2em; font-size:1.3rem; letter-spacing:.02em; }
+  p.sub { color:#c9bfd6; font-size:1.08rem; }
+  .scroll { background:#2b2532; border:1px solid #4a3f57; border-radius:10px; padding:14px 18px; margin:18px 0; }
+  ol li, ul li { margin:.4em 0; }
+  a { color:#8fd3c7; }
+  kbd { background:#3a3243; border:1px solid #5a4d69; border-radius:4px; padding:0 5px; font-size:.9em; }
+  footer { margin-top:3em; padding-top:1em; border-top:1px solid #4a3f57; color:#b7aec3; font-size:.95rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>In Character</h1>
+<p class="sub">A host guide for running a tabletop game night on Discord where players can appear on camera as the characters they play, using a browser live face swap.</p>
+
+<div class="scroll"><strong>Status, October 2026:</strong> the live studio at <a href="https://livefaceswap.io/">LiveFaceSwap.io</a> is not connected yet. The camera preview is free and needs no login. Use this guide to prepare your table, then run the live part once sessions open.</div>
+
+<h2>The idea</h2>
+<p>Role-play groups already draw portraits, write backstories and do voices. Cameras usually break the spell: you hear a dwarf and see someone's kitchen. LiveFaceSwap.io describes Discord D&amp;D sessions as one of its use cases: players join through OBS Virtual Camera using portraits they drew or have rights to, so the picture on camera matches the character at the table.</p>
+<p>Because the studio redraws the webcam picture as it happens, expressions carry through. When the rogue grins, the portrait grins.</p>
+
+<h2>Session zero: agree on the rules</h2>
+<ul>
+  <li><strong>Everyone opts in.</strong> Cameras in character are optional. Nobody is pressured to use one.</li>
+  <li><strong>Adults only.</strong> The service is for people 18 and older. Each session starts with four confirmations: 18 or older, rights to every face used, and two misuse rules from the Terms.</li>
+  <li><strong>Own art or licensed art.</strong> Use a portrait you drew, one you commissioned with permission to use it, or an original character from the built-in library. The library's 46 images are originals with no real people.</li>
+  <li><strong>No real faces of people who aren't at the table.</strong> The point is the character, not someone else.</li>
+  <li><strong>Say it out loud.</strong> The service asks users to let others on a call know about the swap. At a game table that is easy: "Tonight I'm on camera as my character."</li>
+</ul>
+
+<h2>Picking a look for your character</h2>
+<ol>
+  <li><strong>Face swap</strong> with your own portrait upload (PNG, JPEG or WebP, used once it passes a content check), or one of the 30 library characters.</li>
+  <li><strong>Try on</strong> one of the 10 library outfits if you want to keep your face but change your costume.</li>
+  <li><strong>Restyle</strong> the whole frame. For a one-shot, the game master might choose ink comic for a noir mystery, watercolor for a fairy-tale campaign, pixel art for a retro dungeon crawl or neon cyber for a sci-fi heist. Anime and clay are the other two looks.</li>
+</ol>
+
+<h2>Setup for each player</h2>
+<ol>
+  <li>Open the studio in Chrome on a Windows or Mac computer and allow your webcam. No GPU or install is needed for the studio; frames are redrawn in the cloud.</li>
+  <li>Pick your reference and open the clean output window. It is 960&times;540 and shows only the AI picture.</li>
+  <li>Install the free OBS Studio. Add the output window as a <em>Window Capture</em> source and fit it to the canvas.</li>
+  <li>Click <em>Start Virtual Camera</em> in OBS.</li>
+  <li>In Discord, open <kbd>User Settings</kbd> &gt; <kbd>Voice &amp; Video</kbd> and choose <em>OBS Virtual Camera</em>.</li>
+  <li>Join the voice channel and turn your camera on. Keep the studio output window open the whole night.</li>
+</ol>
+
+<h2>Game master tips</h2>
+<ul>
+  <li><strong>Switch faces between scenes, not mid-sentence.</strong> Changing the reference between takes is how the site suggests playing several characters; for a game master, that means one portrait per important NPC, swapped at scene breaks.</li>
+  <li><strong>Plan session time.</strong> One live session runs per account at a time, and Live X2.0 uses 1 credit per second. A ten-minute in-character scene is 600 credits. Consider saving the swap for key moments, such as introductions, a villain's reveal or a dramatic monologue, and spending the rest of the night on regular cameras.</li>
+  <li><strong>Have a fallback.</strong> If the studio reports a camera that is busy, access denied or blocked, no camera, or no picture for 60 seconds, switch Discord back to your regular webcam and keep playing. A dropped connection reconnects once on its own.</li>
+</ul>
+
+<h2>Recording the highlight</h2>
+<p>The studio's built-in recorder downloads WebM or MP4 depending on your browser, with an AI generated mark in the lower-right corner. Recordings stay on your device; camera frames are not saved by the service. Ask the table before sharing any clip with people outside it.</p>
+
+<h2>What it costs a group</h2>
+<p>Since one live session runs per account at a time, each player who appears in character uses their own account. Opening the camera is free. New accounts get 180 credits (valid 30 days, about 3 minutes), enough to test the setup during session zero. Plans start at $15/month; credit packs are one-time and never expire, which suits groups that only meet now and then.</p>
+
+<p>The full call setup, including Zoom and Google Meet, is on the <a href="https://livefaceswap.io/face-swap-video-call">face swap video call page</a>.</p>
+
+<footer>
+  <p>Host guide for tabletop players, published on GitHub Pages. LiveFaceSwap.io is an independent website, not affiliated with other apps or companies that use a similar name.</p>
+  <p><strong>For adults 18+; use only your own face or one you have consent to use.</strong></p>
+</footer>
+</div>
+</body>
+</html>
